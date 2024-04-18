@@ -1,0 +1,12 @@
+{
+    "base_url":"http://127.0.0.1:5500",
+    "postgresql": {
+        "executable": "/usr/pgsql-13/bin/pg_ctl",
+        "user": "sam",
+        "password": "sam",
+        "dbname": "sam",
+        "host": "127.0.0.1",
+        "port": "12179",
+        "postgres_options": "-c log_statement=all -c log_lock_waits=on"
+    }
+}

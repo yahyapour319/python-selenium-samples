@@ -1,8 +1,25 @@
 # python-selenium-samples
-python selenium samples 
+This project is just a python selenium elements samples code 
 
-# wait_animation_element.py
-    SAMPLE 1 : Waiting on a page's element (like javascript animation) to complete in python selenium.
+## Getting Started
 
-# wait_location_hash_change.py
-    SAMPLE 2 : Waiting on location hash changes.
+It is assumed that you have installed python3.9 and pipenv.
+
+### Installation
+1. install requirment packages:
+
+   ```bash
+   pipenv install
+   ```
+
+### run 
+1. cp config:
+   ```bas
+   cp config.json.example config.json
+   ```
+2. run test_modules:
+	
+   ```bash
+   pipenv run pytest [module_name.py]
+   ```
+
